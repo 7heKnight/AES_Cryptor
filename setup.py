@@ -1,5 +1,7 @@
 import time
 import os
+print('[*] Checking and updating pip')
+os.system('python.exe -m pip install --upgrade pip')
 lib = ['PyCryptodome']
 for i in lib:
     print(f'\n[*] Installing {i}...')
