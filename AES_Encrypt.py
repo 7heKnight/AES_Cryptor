@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 from Crypto.Random import get_random_bytes
 from Crypto.Util.Padding import *
 from hashlib import md5, sha256
